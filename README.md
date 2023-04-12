@@ -46,7 +46,7 @@ ls -a
 ```
 This command is used to see the git repository which is in default mode. This is used to check the path of git or origin 
 ```
-git remote -v
+git init
 ```
 abc@31f67e965e5d:~/workspace$ git remote -v
 origin  https://github.com/iNeuron-Pvt-Ltd/neurolab-flask (fetch)
@@ -114,6 +114,11 @@ In order to check the git reposition as being the origin  we need to paste
 git remote rm origin
 ```
 Now my git hub repositiry can been seen. 
+
+In order to see the location where we want to push the repository
+```
+git remote -v
+```
 
 
 
