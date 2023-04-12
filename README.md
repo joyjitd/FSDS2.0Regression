@@ -104,7 +104,7 @@ In these phase we have to commit the changes with the templete which has beeen p
 git config --global user.email "joyjitd@gmail.com"
 git config --global user.name "Joyjit Dhar"
 ```
-The next two steps has been done to add the git repostition into the vscode. 
+The next two steps has been done to add the git repostition into the vscode. The Link should be http link not the SSH link... NOTE: http link should be used to add the origin. 
 ```
 abc@31f67e965e5d:~/workspace$ git branch -M main
 abc@31f67e965e5d:~/workspace$ git remote add origin git@github.com:joyjitd/FSDSRegerssion.git   
@@ -119,6 +119,12 @@ In order to see the location where we want to push the repository
 ```
 git remote -v
 ```
+
+The processing of pushing the link in the origin is after changing the origin is 
+```
+git push -u origin main
+```
+
 
 
 
