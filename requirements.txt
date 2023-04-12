@@ -3,4 +3,5 @@ pandas
 Flask
 scikit-learn
 seaborn
--e .
+ipykernel
+#-e .

@@ -63,7 +63,7 @@ git remote rm origin
 Again after cheking it has shown blank as the git remote rm origin has removed the previous ineruon path. 
 
 ```
-clear
+cls
 ```
 This is used to clear the terminal. 
 
@@ -109,13 +109,18 @@ The next two steps has been done to add the git repostition into the vscode. The
 abc@31f67e965e5d:~/workspace$ git branch -M main
 abc@31f67e965e5d:~/workspace$ git remote add origin git@github.com:joyjitd/FSDSRegerssion.git   
 ```
-In order to check the git reposition as being the origin  we need to paste 
+In order to remove the git reposition as being the origin  we need to paste 
 ```
 git remote rm origin
 ```
+In order to view  the git reposition as being the origin  we need to paste 
+```
+git remote -v
+
+```
 Now my git hub repositiry can been seen. 
 
-In order to see the location where we want to push the repository
+In order to see or view  the location the next step is to push the repository
 ```
 git remote -v
 ```
